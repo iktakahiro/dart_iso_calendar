@@ -1,5 +1,7 @@
 # iso_calendar
 
+![Run flutter test](https://github.com/iktakahiro/dart_iso_calendar/workflows/Run%20flutter%20test/badge.svg)
+
 Dart package to calculate year and week based on ISO-8601
 
 ## Getting Started
