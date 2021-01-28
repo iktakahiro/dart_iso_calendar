@@ -1,3 +1,7 @@
+## [0.0.3] - Update README
+
+- Update sample code in the README
+
 ## [0.0.2] - Update pubspec.yaml
 
 - Remove unnecessary code in pubspec.yaml
