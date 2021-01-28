@@ -1,21 +1,16 @@
 name: iso_calendar
 description: Dart package to calculate year and week based on ISO-8601
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/iktakahiro/dart_iso_calendar
 repository: https://github.com/iktakahiro/dart_iso_calendar
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.17.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
   meta: ^1.2.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   pedantic: ^1.9.0
-
-flutter:
