@@ -1,3 +1,5 @@
+## [0.0.4] - Add comments for dartdoc
+
 ## [0.0.3] - Update README
 
 - Update sample code in the README
