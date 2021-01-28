@@ -3,7 +3,8 @@ library iso_calendar;
 import 'package:meta/meta.dart';
 
 @immutable
-// IsoCalendar represents data corresponding ISO 8601 calendar.
+
+/// IsoCalendar represents data corresponding ISO 8601 calendar.
 class IsoCalendar {
   IsoCalendar._({
     @required this.year,
@@ -11,6 +12,7 @@ class IsoCalendar {
     @required this.dateTime,
   });
 
+  /// A factory method to create an instance of IsoCalendar using DateTime.
   factory IsoCalendar.fromDateTime(DateTime d) {
     final diff = DateTime.thursday - d.weekday;
     final thursday = diff > 0
