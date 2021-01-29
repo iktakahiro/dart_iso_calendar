@@ -1,3 +1,5 @@
+## [0.0.6] - Add pubspec.yaml for example code
+
 ## [0.0.5] - Add example code
 
 ## [0.0.4] - Add comments for dartdoc
