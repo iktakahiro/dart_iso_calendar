@@ -10,7 +10,7 @@ Add a dependency in your pubspec.yaml:
 
 ```yaml
 dependencies:
-  iso_calendar: ^0.0.5
+  iso_calendar: ^0.0.6
 ```
 
 Create an instance of IsoCalendar using `.fromDateTime()`:
