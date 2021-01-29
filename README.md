@@ -10,7 +10,7 @@ Add a dependency in your pubspec.yaml:
 
 ```yaml
 dependencies:
-  iso_calendar: ^0.0.4
+  iso_calendar: ^0.0.5
 ```
 
 Create an instance of IsoCalendar using `.fromDateTime()`:
@@ -19,8 +19,8 @@ Create an instance of IsoCalendar using `.fromDateTime()`:
 import 'package:iso_calendar/iso_calendar.dart';
 
 void main() {
-    final isoCalendar = IsoCalendar.fromDateTime(DateTime(2021, 1, 1))
-    print(isoCalendar.year) // 2020
-    print(isoCalendar.weekNumber) // 52
+  final isoCalendar = IsoCalendar.fromDateTime(DateTime(2021, 1, 1));
+  print(isoCalendar.year); // 2020
+  print(isoCalendar.weekNumber); // 52
 }
 ```
