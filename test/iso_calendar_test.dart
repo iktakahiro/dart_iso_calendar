@@ -45,15 +45,15 @@ void main() {
         },
       ];
       for (final c in cases) {
-        final actual = IsoCalendar.fromDateTime(c['input']);
+        final actual = IsoCalendar.fromDateTime(c['input'] as DateTime);
 
         expect(
           actual.year,
-          c['expected_year'],
+          c['expected_year'] as int,
         );
         expect(
           actual.weekNumber,
-          c['expected_weekly_number'],
+          c['expected_weekly_number'] as int,
         );
       }
     });
