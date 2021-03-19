@@ -1,6 +1,6 @@
-## [0.9.0] - Preparing for Null Safety
+## [1.0.0] - Support Null Safety
 
-- No breaking changes
+## [1.0.0-nullsafety.0] - Support Null Safety
 
 ## [0.0.6] - Add pubspec.yaml for example code
 
@@ -19,4 +19,3 @@
 ## [0.0.1] - First Release
 
 - Implement IsoCalendar class.
-
