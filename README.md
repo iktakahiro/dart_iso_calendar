@@ -2,7 +2,7 @@
 
 ![Run flutter test](https://github.com/iktakahiro/dart_iso_calendar/workflows/Run%20flutter%20test/badge.svg?branch=main)
 
-Dart package for calculating a number of years and week numbers based on ISO-8601.
+Dart package for calculating the year and week number based on ISO-8601.
 
 ## Getting Started
 
